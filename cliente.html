@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<div>
+<head> 
+   <link rel="stylesheet" href="capa.css">
+   <meta http-equiv="content-Type" content=" applicatcion/json">
+   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+   <script src="js/misFunciones.js"></script>
+</head>
+<body>
+<div class="tituloP">
+   <h1>cliente</h1>
+</div>
+<div>
+   <div class="celdaEntrada" id="partyroom2"></div>
+   <P></P>
+</div>
+
+<div class="celdaEntrada">  
+    <input type="number" id="id" placeholder="id">
+    <input type="text" id="name" placeholder="name"> 
+    <input type="text" id="email" placeholder="email">
+    <input type="number" id="age" placeholder="age">
+    <P></P>
+</div>
+<div class="botones">
+    <input type="button" value="Mostrar los datos" onclick="traerInformacionCliente()">
+    <input type="button" value="Guardar" onclick="guardarInformacionCliente()">
+    <input type="button" value="Actualizar" onclick="actualizarCliente()">
+</div> 
+<div class="botonMenu">
+   <a href="index.html"><input class="botonMenu" type="button" value="Salon"></a>
+  <a href="mensaje.html"><input class="botonMenu" type="button" value="Mensaje"></a>
+</div>  
+</body>
+</html>

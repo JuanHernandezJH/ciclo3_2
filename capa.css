@@ -1,0 +1,34 @@
+
+.tituloP{
+    background-color: rgb(188, 166, 209);
+    text-align: center;
+    margin: 19px;
+    padding: 35px;
+    text-align: center;
+  }
+  .celdaEntrada{
+    background-color: burlywood;
+    border-style: solid;
+    border-width: 2px;
+    text-align: center;
+  }
+  .botones{
+    background-color:rgb(240, 203, 190);
+    animation-fill-mode: both;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+  }
+  .botonMenu{
+    background-color:rgb(58, 75, 95) ;
+    animation-fill-mode: both;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+  }
